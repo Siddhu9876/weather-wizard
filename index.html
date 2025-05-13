@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="introScreen" class="intro-screen">
+        <div class="intro-content">
+            <h1>Welcome to Weather Wizard</h1>
+            <p>Your minimal, animated weather assistant.</p>
+            <button id="startBtn">Get Started</button>
+        </div>
+    </div>
+
+    <div id="weatherBg" class="weather-bg">
+        <div id="loader" class="loader"></div>
+        <div class="weather-container">
+            <h1>Weather App</h1>
+            <input type="text" id="cityInput" placeholder="Enter city name" />
+            <button id="searchBtn">Get Weather</button>
+            <p id="errorMsg" class="hidden"></p>
+
+            <div id="weatherResult" class="hidden"></div>
+            <div id="forecast" class="forecast-container"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
